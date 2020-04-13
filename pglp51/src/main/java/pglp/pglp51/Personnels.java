@@ -1,10 +1,11 @@
 package pglp.pglp51;
 
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Personnels implements InterfacePersonnels,Serializable {
+public class Personnels implements InterfacePersonnels,Serializable{
 	
 	/**
 	 * 
@@ -14,13 +15,13 @@ public class Personnels implements InterfacePersonnels,Serializable {
 		return IdPersonnels;
 	}
 	public void setIdPersonnels(int idPersonnels) {
-		IdPersonnels = idPersonnels;
+		this.IdPersonnels = idPersonnels;
 	}
 	public String getNom() {
 		return Nom;
 	}
 	public void setNom(String nom) {
-		Nom = nom;
+		this.Nom = nom;
 	}
 	public String getPrenom() {
 		return prenom;
@@ -32,7 +33,7 @@ public class Personnels implements InterfacePersonnels,Serializable {
 		return Tel;
 	}
 	public void setTel(ArrayList<Integer> tel) {
-		Tel = tel;
+		this.Tel = tel;
 	}
 	/**
 	 * 
