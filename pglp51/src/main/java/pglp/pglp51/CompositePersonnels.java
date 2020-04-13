@@ -19,6 +19,9 @@ public ArrayList <InterfacePersonnels> personelles=new ArrayList<InterfacePerson
 	 
 	 
  }
+ public int getIDGroupe() {
+	return IdGroupe;
+}
   public void afficher() {
 		System.out.println("lidentifiant du groupe :"+IdGroupe);
 		
